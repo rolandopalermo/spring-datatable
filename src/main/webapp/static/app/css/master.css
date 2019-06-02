@@ -1,0 +1,36 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: white;
+}
+.active,
+.pending,
+.inactive,
+.deleted {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.active {
+    background: #ff3333;
+}
+.pending {
+    background: #003399;
+}
+
+.inactive {
+    background: #339966;
+}
+
+.deleted {
+    background: #ffcc00;
+}
+
+.gr {
+    background: #cc0099;
+}
